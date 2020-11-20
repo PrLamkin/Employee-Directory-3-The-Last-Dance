@@ -1,3 +1,42 @@
+# Employee Directory 3 The Last Dance
+    
+    # Table of Contents
+    
+    -[Description]
+    -[Installation]
+    -[Usage]
+    -[Contributing Party's]
+    -[Test]
+    -[License]
+    
+    ## Description:
+    ![License](https://img.shields.io/badge/License--blue.svg "License Badge")
+    
+        Keeping a log of all the employees under your command
+    ## Installation:
+        N/A Go ahead an click this link https://employee-directory-3-the-last.herokuapp.com/
+    ## Usage:
+        Alright lads, we are getting close to the end of our weekly "how does this shit work" sessions. FOr this week We'll be taking a look at the Employee Directory. Step 1: Load the app. Step 2: Use the Search bar to look through the people in a specific area. Step 3: Profit?????
+    ## Contributing Party's
+        Coding BootCamp U of M, Web Dev Simplified and FreeCodeCamp.org
+    ## Test:
+        N/A
+    ##  Credits:
+        Definitely Peter
+    ##License:
+        For more information about the Licensem click the link below! or not, I can't force you to do anything.
+        
+    - [License](https://opensource.org/licenses/)
+    
+    ##Questions:
+        For my weekly dose of "how does this shit work??" please follow the link to my gitHub:
+        
+    - [gitHub Profile](https://github.com/PrLamkin)
+    
+    For additional questions outside of any of the above, please email me @: Shiektheimmortal@outlook.com
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
