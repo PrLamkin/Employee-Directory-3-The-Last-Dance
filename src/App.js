@@ -5,7 +5,23 @@ import { getUsers } from "./API";
 import './App.css';
 
 function App() {
-  
-}
+  const [initialUsers, updateAvaibleUsers] = userState([]);
+  const [usersToRender, updateUsersToRender] = userState([]);
 
+  useEffect(() => {
+    getUsers().then(({ data: { results } }) => updateAvaibleUsers(results));
+    
+  }, []);
+
+  return (
+    <div className="App">
+      <h1>Employee Directory</h1>
+      <p>
+        Choose your fighter! or! Search your fighter with the user input!
+      </p>
+      <FilterInput users={initialUsers} updateUsers={updateUsersToRender} />
+      <Table users={usersToRender} />
+    </div>
+  );
+}
 export default App;
