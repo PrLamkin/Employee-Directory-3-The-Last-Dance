@@ -50,7 +50,7 @@ const Table = ({ users }) => {
                     {sortedUsers.map(
                         ({
                             location: {city, state, country, postcode},
-                            pciture: {thumbnail},
+                            picture: {thumbnail},
                             cell,
                             phone,
                             gender,
