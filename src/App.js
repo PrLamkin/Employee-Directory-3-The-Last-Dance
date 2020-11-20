@@ -5,8 +5,8 @@ import { getUsers } from "./API";
 import './App.css';
 
 function App() {
-  const [initialUsers, updateAvaibleUsers] = userState([]);
-  const [usersToRender, updateUsersToRender] = userState([]);
+  const [initialUsers, updateAvaibleUsers] = useState([]);
+  const [usersToRender, updateUsersToRender] = useState([]);
 
   useEffect(() => {
     getUsers().then(({ data: { results } }) => updateAvaibleUsers(results));
